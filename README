@@ -1,0 +1,29 @@
+# Tic Tac Toe AI
+
+A simple Tic Tac Toe game built with **Python** and **Pygame**, where a human can play against an AI using the Minimax algorithm.  
+
+---
+
+## Features
+- 3x3 Tic Tac Toe board
+- Human vs AI gameplay
+- AI uses **Minimax** for perfect moves
+- Win/draw detection
+- Highlight winning line
+- Restart game with **R** key
+
+---
+
+## Requirements
+- Python 3.x
+- Pygame
+
+Install Pygame using:
+
+```bash
+pip install pygame
+
+ pygame → pip install pygame
+ numpy → pip install numpy
+ python --version
+ pip --version
