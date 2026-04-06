@@ -5,12 +5,18 @@ A simple Tic Tac Toe game built with **Python** and **Pygame**, where a human ca
 ---
 
 ## Features
-- 3x3 Tic Tac Toe board
-- Human vs AI gameplay
-- AI uses **Minimax** for perfect moves
-- Win/draw detection
-- Highlight winning line
-- Restart game with **R** key
+
+- **Human vs AI gameplay:** The player uses "O" (circle), and the AI uses "X" (cross).
+- **Minimax AI:** The AI uses the Minimax algorithm for optimal moves.
+- **Graphical User Interface (GUI):**
+  - Game board with clear grid lines.
+  - Visual markers for human and AI moves.
+  - Highlighted winning line.
+  - Status display showing current turn or game outcome.
+  - Scoreboard displaying Human and AI wins.
+  - A clickable restart button to reset the game at any time.
+- **Simple, clean UI:** Easy to read fonts and colors.
+- **AI thinking delay:** A small delay before the AI moves to enhance realism.
 
 ---
 
@@ -27,3 +33,4 @@ pip install pygame
  numpy → pip install numpy
  python --version
  pip --version
+
